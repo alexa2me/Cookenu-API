@@ -15,11 +15,11 @@ Project status: in progress 🚧:
 
 :small_blue_diamond: [What is this project about?](#page_with_curl-what-is-this-project-about)
 
-:small_blue_diamond: [Requirements](#hammer_and_wrench-requirements)
+:small_blue_diamond: [Requirements](#hammer_and_wrenchrequirements)
 
-:small_blue_diamond: [How to run the application](#how-to-run-the-application-arrow_forward)
+:small_blue_diamond: [How to run the application](#arrow_forward-how-to-run-the-application)
 
-:small_blue_diamond: [Endpoints](#endpoints)
+:small_blue_diamond: [Endpoints](#triangular_flag_on_post-endpoints)
 
 - Sign up
 - Login
@@ -129,7 +129,7 @@ Project status: in progress 🚧:
 
 6.  Run `npm run start` in your command line and go to your client REST to see the magic happening!
 
-## Endpoints
+## :triangular_flag_on_post: Endpoints
 
 ### :metal: Users
 
