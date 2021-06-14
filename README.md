@@ -17,7 +17,7 @@ Project status: in progress 🚧:
 
 :small_blue_diamond: [Requirements](#requirements)
 
-:small_blue_diamond: [How to run the application](#how-to-run-the-application-arrow_forward)
+:small_blue_diamond: [How to run the application](#howtoruntheapplicationarrow_forward)
 
 :small_blue_diamond: [Endpoints](#endpoints)<br>
 
