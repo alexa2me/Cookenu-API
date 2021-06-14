@@ -46,24 +46,24 @@ Project status: in progress 🚧:
 
 ## :hammer_and_wrench: Requirements
 
-### Runtime environment
+#### Runtime environment
 
 <a href="https://nodejs.org/en/">:small_blue_diamond: NodeJS</a>
 
-### Language
+#### Language
 
 <a href="https://www.typescriptlang.org/
 ">:small_blue_diamond: Typescript</a>
 
-### Database Service (you can use another one)
+#### Database Service (you can use another one)
 
 <a href="https://www.mysql.com/">:small_blue_diamond: MySQL</a>
 
-### Framework
+#### Framework
 
 <a href="https://expressjs.com/pt-br/">:small_blue_diamond: Express.js</a>
 
-### Libraries
+#### Libraries
 
 <a href="http://knexjs.org/">:small_blue_diamond: Knex.js</a>
 <a href="https://www.npmjs.com/package/bcryptjs">:small_blue_diamond: bcryptjs</a>
@@ -73,7 +73,7 @@ Project status: in progress 🚧:
 <a href="https://www.npmjs.com/package/nodemailer">:small_blue_diamond: nodemailer</a>
 <a href="https://www.npmjs.com/package/uuid">:small_blue_diamond: uuid</a>
 
-## How to run the application
+## :arrow_forward: How to run the application
 
 1.  Clone this repository in your machine.
 
