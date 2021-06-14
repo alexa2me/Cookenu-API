@@ -13,7 +13,7 @@ Project status: in progress 🚧:
 
 ### Table of Contents
 
-:small_blue_diamond: [What is this project about?](#teste)
+:small_blue_diamond: [What is this project about?](#what-is-this-project-about)
 
 :small_blue_diamond: [Requirements](#requirements)
 
@@ -38,7 +38,7 @@ Project status: in progress 🚧:
 
 :small_blue_diamond: [License](#license)
 
-## :page_with_curl: teste
+## What is this project about 
 
 <p align="justify">
   This project is about an <strong>Application Programming Interface (API)</strong> developed to serve a social media, Cookenu, in which users can share relevant informations about food and recipes they had tried. It has all the most common functionalities in social medias.
