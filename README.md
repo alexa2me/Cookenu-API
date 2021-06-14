@@ -13,7 +13,7 @@ Project status: in progress 🚧:
 
 ### Table of Contents
 
-:small_blue_diamond: [What is this project about?](#what-is-this-project-about-?)
+:small_blue_diamond: [What is this project about?](#what-is-this-project-about?)
 
 :small_blue_diamond: [Requirements](#requirements)
 
