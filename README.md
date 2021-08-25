@@ -53,7 +53,7 @@ Project status: in progress 🚧:
 #### Language
 
 <a href="https://www.typescriptlang.org/
-">:small_blue_diamond: Typescript</a>
+" target=˜_blank˜>:small_blue_diamond: Typescript</a>
 
 #### Database Service (you can use another one)
 
