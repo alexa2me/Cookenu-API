@@ -9,7 +9,7 @@
   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=blue&style="/>
   <img src="http://img.shields.io/static/v1?label=Status&message=in-progress&color=yellow&style="/>
 
-Project status: in progress 🚧:
+Project status: in progress 🚧
 
 ### Table of Contents
 
