@@ -29,7 +29,7 @@ export default class FollowController {
       await followUser(newFollowed);
 
       res.status(200).send({ message: "Followed successfully" });
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });
@@ -56,7 +56,7 @@ export default class FollowController {
       await unfollowUser(followed_id, verifiedToken.id);
 
       res.status(200).send({ message: "Unfollowed successfully" });
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });

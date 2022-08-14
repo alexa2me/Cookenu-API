@@ -28,7 +28,7 @@ export default class FeedController {
       });
 
       res.status(200).send({ recipes: feedMap });
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });

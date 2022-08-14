@@ -40,7 +40,7 @@ export default class AdminController {
       await deleteUser(id);
 
       res.status(200).send({ message: "User deleted successfully!" });
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });

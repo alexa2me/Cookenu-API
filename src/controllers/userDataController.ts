@@ -16,7 +16,7 @@ export default class UserDataController {
       const user = await getUserData(verifiedToken.id);
 
       res.status(200).send(user);
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });
@@ -38,7 +38,7 @@ export default class UserDataController {
       const user = await getUserData(id);
 
       res.status(200).send(user);
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });

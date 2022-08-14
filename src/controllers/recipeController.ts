@@ -41,7 +41,7 @@ export default class RecipeController {
       await addRecipe(newRecipe);
 
       res.status(200).send({ message: "Recipe added successfully!" });
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });
@@ -68,7 +68,7 @@ export default class RecipeController {
         description: recipe.description,
         createdAt: formatData(recipe.created_at),
       });
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });
@@ -110,7 +110,7 @@ export default class RecipeController {
       await editRecipe(recipe_id, verifiedToken.id, title, description);
 
       res.status(200).send({ message: "Recipe edited successfully" });
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });
@@ -147,7 +147,7 @@ export default class RecipeController {
       await deleteRecipe(id);
 
       res.status(200).send({ message: "Recipe deleted successfully!" });
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });
@@ -182,7 +182,7 @@ export default class RecipeController {
       await deleteAllUserRecipes(id);
 
       res.status(200).send({ message: "All recipes deleted successfully!" });
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });

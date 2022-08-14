@@ -54,7 +54,7 @@ export default class UserAccessController {
       await createUser(newUser);
 
       res.status(200).send({ access_token: token });
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });
@@ -92,7 +92,7 @@ export default class UserAccessController {
       });
 
       res.status(200).send({ access_token: token });
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });
@@ -135,7 +135,7 @@ export default class UserAccessController {
       });
 
       res.send(200);
-    } catch (err) {
+    } catch (err: any) {
       res.status(400).send({
         message: err.message,
       });
