@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev-start": "tsnd --transpile-only --ignore-watch node_modules ./src/index.ts",
-    "start": "tsc && node ./build/index.js"
+    "start": "node ./build/index.js"
   },
   "keywords": [],
   "author": "Alexandra Alcantara",
