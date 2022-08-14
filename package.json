@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "dev-start": "tsnd --transpile-only --ignore-watch node_modules ./src/index.ts",
     "start": "node ./build/index.js"
   },
